@@ -6,6 +6,8 @@ import re
 from datetime import datetime
 from itertools import chain
 from urllib.request import Request, urlopen
+from dotenv import load_dotenv
+load_dotenv()
 
 created = [
     ("banflam", "from-afar"),
@@ -45,7 +47,6 @@ query = """
             size
           }
         }
-        stargazerCount
         viewerPermission
       }
     }
@@ -59,7 +60,6 @@ for owner, repo in chain(created, maintain):
     query += f"""
   {repo.replace("-", "_").replace(".", "_")}: repository(owner: "{owner}", name: "{repo}") {{
     description
-    stargazerCount
   }}
 """
 
@@ -95,7 +95,6 @@ for repo in user["repositories"]["nodes"]:
         continue
 
     forks += repo["forkCount"]
-    stars += repo["stargazerCount"]
     for lang in repo["languages"]["edges"]:
         size += lang["size"]
         name = lang["node"]["name"]
@@ -112,9 +111,6 @@ def add_repos(repos):
 
     for owner, repo in sorted(
         repos,
-        key=lambda x: int(
-            data[x[1].replace("-", "_").replace(".", "_")]["stargazerCount"]
-        ),
         reverse=True,
     ):
         repo_data = data[repo.replace("-", "_").replace(".", "_")]
@@ -123,7 +119,7 @@ def add_repos(repos):
         if owner == "nix-community":
             description = regex.sub(r"\1", description)
 
-        readme += f"- [**{repo}**](https://github.com/{owner}/{repo}) (⭐ {repo_data['stargazerCount']}) - {description}\n"
+        readme += f"- [**{repo}**](https://github.com/{owner}/{repo}) - {description}\n"
 
 
 readme = "#### Projects I created\n\n"
@@ -150,10 +146,6 @@ readme += f"""
         <td><a href="https://gist.github.com/banflam">
           {user["gists"]["totalCount"]}
         </a></td>
-      </tr>
-      <tr>
-        <td>Stargazers</td>
-        <td>{stars}</td>
       </tr>
       <tr>
         <td>Forks</td>
