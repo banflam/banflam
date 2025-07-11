@@ -8,28 +8,15 @@ from itertools import chain
 from urllib.request import Request, urlopen
 
 created = [
-    ("banflam", "cfg"),
-    ("banflam", "mmtc"),
-    ("banflam", "nix-develop.nvim"),
-    ("banflam", "pep-508"),
-    ("banflam", "sagoin"),
-    ("banflam", "utf8"),
-    ("nix-community", "fenix"),
-    ("nix-community", "haumea"),
-    ("nix-community", "namaka"),
-    ("nix-community", "nix-init"),
-    ("nix-community", "nix-melt"),
-    ("nix-community", "nurl"),
-    ("nix-community", "patsh"),
-    ("nix-community", "zon2nix"),
+    ("banflam", "from-afar"),
+    ("banflam", "path-pledge"),
+    ("banflam", "chess-trainer"),
+    ("banflam", "credit-captain"),
+    ("banflam", "regular-show"),
 ]
 
 maintain = [
-    ("mic92", "nix-update"),
-    ("mic92", "nixpkgs-review"),
-    ("nix-community", "nix-index"),
-    ("nixos", "nixpkgs"),
-    ("ouch-org", "ouch"),
+    ("couchers-org", "couchers"),
 ]
 
 query = """
