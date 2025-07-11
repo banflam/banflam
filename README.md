@@ -1,7 +1,6 @@
 # banflam
 
 
-
 <table>
   <tr align="center">
     <td><b>Statistics</b></td>
