@@ -28,7 +28,7 @@ created = [
 ]
 
 maintain = [
-    ("couchers-org", "couchers"),
+    #("couchers-org", "couchers"),
 ]
 
 query = """
