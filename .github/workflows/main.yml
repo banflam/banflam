@@ -1,0 +1,46 @@
+name: update
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  update:
+    name: update
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          token: ${{ secrets.TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"  # or match your local version
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Update README.md
+        run: |
+          if python ./update.py; then
+            git config --local user.name "github-actions"
+            git config --local user.email "action@github.com"
+            git add README.md
+            if [ "$(git log --format=%an HEAD~..HEAD)" = github-actions ]; then
+              git commit --amend --no-edit
+              git push -f
+            else
+              git commit -m "update README.md"
+              git push
+            fi
+          fi
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
