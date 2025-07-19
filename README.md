@@ -13,7 +13,6 @@ Software Engineer Living in New York City
 
 #### Projects I help maintain
 
-- [**couchers**](https://github.com/couchers-org/couchers) (⭐ 476) - The next-generation couch surfing platform. Free forever. Community‑led. Non‑profit. Modern. Chuck us a star :)
 
 <table>
   <tr align="center">
@@ -44,11 +43,11 @@ Software Engineer Living in New York City
       </tr>
       <tr>
         <td>Contributed to</td>
-        <td>4</td>
+        <td>3</td>
       </tr>
       <tr>
         <td>Commits</td>
-        <td>501</td>
+        <td>509</td>
       </tr>
       <tr>
         <td>Issues</td>
@@ -71,8 +70,8 @@ Software Engineer Living in New York City
         </a></td>
       </tr>
     </table></td>
-    <td><table><tr><td>Jupyter Notebook</td><td>99.67%</td></tr><tr><td>TypeScript</td><td>0.14%</td></tr><tr><td>Python</td><td>0.11%</td></tr><tr><td>HTML</td><td>0.06%</td></tr><tr><td>JavaScript</td><td>0.01%</td></tr><tr><td>Svelte</td><td>0.01%</td></tr><tr><td>RAML</td><td>0.01%</td></tr><tr><td>CSS</td><td>0.0%</td></tr><tr><td>Astro</td><td>0.0%</td></tr><tr><td>Procfile</td><td>0.0%</td></tr></table></td>
+    <td><table><tr><td>Jupyter Notebook</td><td>99.66%</td></tr><tr><td>TypeScript</td><td>0.14%</td></tr><tr><td>Python</td><td>0.11%</td></tr><tr><td>HTML</td><td>0.06%</td></tr><tr><td>JavaScript</td><td>0.01%</td></tr><tr><td>Svelte</td><td>0.01%</td></tr><tr><td>RAML</td><td>0.01%</td></tr><tr><td>Astro</td><td>0.0%</td></tr><tr><td>CSS</td><td>0.0%</td></tr><tr><td>Procfile</td><td>0.0%</td></tr></table></td>
   </tr>
 </table>
 
-<sub>Last updated: 2025-07-19 02:53:34 UTC</sub>
+<sub>Last updated: 2025-07-19 15:56:05 UTC</sub>
