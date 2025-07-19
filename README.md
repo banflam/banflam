@@ -24,13 +24,13 @@ Software Engineer Living in New York City
       <tr>
         <td>Repositories</td>
         <td><a href="https://github.com/banflam?tab=repositories">
-          28
+          33
         </a></td>
       </tr>
       <tr>
         <td>Gists</td>
         <td><a href="https://gist.github.com/banflam">
-          4
+          6
         </a></td>
       </tr>
       <tr>
@@ -47,7 +47,7 @@ Software Engineer Living in New York City
       </tr>
       <tr>
         <td>Commits</td>
-        <td>509</td>
+        <td>570</td>
       </tr>
       <tr>
         <td>Issues</td>
@@ -70,8 +70,8 @@ Software Engineer Living in New York City
         </a></td>
       </tr>
     </table></td>
-    <td><table><tr><td>Jupyter Notebook</td><td>99.66%</td></tr><tr><td>TypeScript</td><td>0.14%</td></tr><tr><td>Python</td><td>0.11%</td></tr><tr><td>HTML</td><td>0.06%</td></tr><tr><td>JavaScript</td><td>0.01%</td></tr><tr><td>Svelte</td><td>0.01%</td></tr><tr><td>RAML</td><td>0.01%</td></tr><tr><td>Astro</td><td>0.0%</td></tr><tr><td>CSS</td><td>0.0%</td></tr><tr><td>Procfile</td><td>0.0%</td></tr></table></td>
+    <td><table><tr><td>Jupyter Notebook</td><td>99.5%</td></tr><tr><td>Makefile</td><td>0.16%</td></tr><tr><td>TypeScript</td><td>0.15%</td></tr><tr><td>Python</td><td>0.11%</td></tr><tr><td>HTML</td><td>0.06%</td></tr><tr><td>Svelte</td><td>0.01%</td></tr><tr><td>JavaScript</td><td>0.01%</td></tr><tr><td>RAML</td><td>0.01%</td></tr><tr><td>Astro</td><td>0.0%</td></tr><tr><td>Rust</td><td>0.0%</td></tr></table></td>
   </tr>
 </table>
 
-<sub>Last updated: 2025-07-19 16:07:53 UTC</sub>
+<sub>Last updated: 2025-07-25 23:18:12 UTC</sub>
