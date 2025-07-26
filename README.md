@@ -9,9 +9,7 @@ Software Engineer Living in New York City
 - [**chess-trainer**](https://github.com/banflam/chess-trainer) (⭐ 2) - A framework-free chess tactics trainer written from scratch
 - [**chess-thoughts**](https://github.com/banflam/chess-thoughts) (⭐ 2) - A quiet place to think about chess
 - [**path-pledge**](https://github.com/banflam/path-pledge) (⭐ 2) - For a better PATH experience (but applicable everywhere)
-- [**regular-show**](https://github.com/banflam/regular-show) (⭐ 2) - Analyzing data about Cartoon Network's Regular Show to find episodes worth watching
-
-#### Projects I help maintain
+- [**regular-show**](https://github.com/banflam/regular-show) (⭐ 2) - Analyzing data about Cartoon Network's Regular Show to find episodes worth watching 
 
 <table>
   <tr align="center">
@@ -46,7 +44,7 @@ Software Engineer Living in New York City
       </tr>
       <tr>
         <td>Commits</td>
-        <td>570</td>
+        <td>586</td>
       </tr>
       <tr>
         <td>Issues</td>
@@ -69,8 +67,8 @@ Software Engineer Living in New York City
         </a></td>
       </tr>
     </table></td>
-    <td><table><tr><td>Jupyter Notebook</td><td>99.5%</td></tr><tr><td>Makefile</td><td>0.16%</td></tr><tr><td>TypeScript</td><td>0.15%</td></tr><tr><td>Python</td><td>0.11%</td></tr><tr><td>HTML</td><td>0.06%</td></tr><tr><td>Svelte</td><td>0.01%</td></tr><tr><td>JavaScript</td><td>0.01%</td></tr><tr><td>RAML</td><td>0.01%</td></tr><tr><td>Astro</td><td>0.0%</td></tr><tr><td>Rust</td><td>0.0%</td></tr></table></td>
+    <td><table><tr><td>Jupyter Notebook</td><td>99.49%</td></tr><tr><td>Makefile</td><td>0.16%</td></tr><tr><td>TypeScript</td><td>0.15%</td></tr><tr><td>Python</td><td>0.11%</td></tr><tr><td>HTML</td><td>0.06%</td></tr><tr><td>Svelte</td><td>0.01%</td></tr><tr><td>JavaScript</td><td>0.01%</td></tr><tr><td>RAML</td><td>0.01%</td></tr><tr><td>Astro</td><td>0.01%</td></tr><tr><td>CSS</td><td>0.0%</td></tr></table></td>
   </tr>
 </table>
 
-<sub>Last updated: 2025-07-25 23:18:12 UTC</sub>
+<sub>Last updated: 2025-07-26 23:17:47 UTC</sub>
