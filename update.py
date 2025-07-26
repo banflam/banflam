@@ -142,8 +142,8 @@ def add_repos(repos):
 readme = "https://rishi.ag/\n\nSoftware Engineer Living in New York City"
 readme += "\n\n#### Projects I created\n\n"
 add_repos(created)
-readme += "\n#### Projects I help maintain\n\n"
-add_repos(maintain)
+#readme += "\n#### Projects I help maintain\n\n"
+#add_repos(maintain)
 
 readme += f"""
 <table>
